@@ -1,0 +1,138 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto';
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.user-name-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 150px;
+  width: 730px;
+  padding-left: 30px;
+  margin-top: 40px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  margin-bottom: 15px;
+}
+.user-name {
+  font-size: 30px;
+  color: #475569;
+  margin-bottom: 0px;
+}
+.welcome-description {
+  font-size: 13px;
+  color: #475569;
+  font-weight: 400;
+}
+.span {
+  color: #0b69ff;
+  font-weight: 500;
+}
+
+/* add transaction */
+
+.transaction-and-history-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  padding-top: 15px;
+  padding-left: 28px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  width: 290px;
+  margin-right: 25px;
+}
+.heading {
+  font-size: 21px;
+  color: #1e293b;
+  font-weight: 400;
+}
+.label-and-input-container {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+}
+.label {
+  font-size: 12px;
+  margin-bottom: 8px;
+  color: #7e858e;
+}
+.input {
+  height: 36px;
+  width: 220px;
+  border: 1px solid #7e858e;
+  border-radius: 3px;
+  font-size: 12px;
+  outline: none;
+  padding: 10px;
+}
+.add-button {
+  border: 0px;
+  outline: none;
+  color: #ffffff;
+  height: 30px;
+  width: 55px;
+  background-color: #0b69ff;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+
+/* History Container */
+
+.history-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #cbd5e1;
+  height: 400px;
+  width: 415px;
+  border-radius: 8px;
+  padding-top: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 0px;
+}
+.history-text {
+  font-size: 21px;
+  color: #1e293b;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+.list-table {
+  border: 1px solid #cbd5e1;
+  list-style-type: none;
+  padding-left: 15px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.title-text {
+  flex-grow: 1;
+}
+.amount-text {
+  flex-grow: 1;
+}
+.type-text {
+  flex-grow: 3;
+}
+.unorder-order-list {
+  padding-left: 0px;
+  margin-top: 0px;
+}

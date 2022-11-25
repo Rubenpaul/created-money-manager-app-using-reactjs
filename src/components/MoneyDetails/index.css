@@ -1,0 +1,55 @@
+/* Write your CSS here */
+.un-ordered-list-contianer {
+  display: flex;
+  align-items: center;
+  padding-left: 0px;
+  margin-top: 15px;
+}
+.list-item {
+  list-style-type: none;
+  border-radius: 10px;
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+  height: 110px;
+  width: 230px;
+  margin-right: 20px;
+}
+.bg-yellow {
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
+}
+.bg-blue {
+  background-color: #cffafe;
+  border: 1px solid #06b6d4;
+}
+.bg-voilet {
+  background-color: #ede9fe;
+  border: 1px solid #7c3aed;
+}
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 25px;
+}
+.icon {
+  height: 50px;
+  width: 50px;
+}
+.money-text-container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.money-text {
+  font-size: 12px;
+  color: #475569;
+}
+
+.money {
+  margin-top: 0px;
+  font-size: 20px;
+  color: #475569;
+  font-weight: 500;
+}
