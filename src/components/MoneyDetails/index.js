@@ -17,7 +17,7 @@ const MoneyDetails = props => {
         <div className="money-text-container">
           <p className="money-text">Your Balance</p>
           <p className="money" testid="balanceAmount">
-            Rs {balanceAmount}
+              {`Rs ${balanceAmount}`}
           </p>
         </div>
       </div>
@@ -33,7 +33,7 @@ const MoneyDetails = props => {
         <div className="money-text-container">
           <p className="money-text">Your Income</p>
           <p className="money" testid="incomeAmount">
-            Rs {incomeAmount}
+            {`Rs ${incomeAmount}`}
           </p>
         </div>
       </div>
@@ -49,7 +49,7 @@ const MoneyDetails = props => {
         <div className="money-text-container">
           <p className="money-text">Your Expenses</p>
           <p className="money" testid="expensesAmount">
-            Rs {expensesAmount}
+            {`Rs ${expensesAmount}`}
           </p>
         </div>
       </div>
