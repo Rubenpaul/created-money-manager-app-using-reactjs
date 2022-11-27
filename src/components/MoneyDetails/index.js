@@ -5,8 +5,8 @@ const MoneyDetails = props => {
   const {expensesAmount, balanceAmount, incomeAmount} = props
 
   return (
-    <ul className="un-ordered-list-contianer">
-      <li className="list-item bg-yellow">
+    <div className="un-ordered-list-contianer">
+      <div className="list-item bg-yellow">
         <div className="image-container">
           <img
             src="https://assets.ccbp.in/frontend/react-js/money-manager/balance-image.png "
@@ -20,9 +20,9 @@ const MoneyDetails = props => {
             RS {balanceAmount}
           </p>
         </div>
-      </li>
+      </div>
 
-      <li className="list-item bg-blue">
+      <div className="list-item bg-blue">
         <div className="image-container">
           <img
             src="https://assets.ccbp.in/frontend/react-js/money-manager/income-image.png"
@@ -36,9 +36,9 @@ const MoneyDetails = props => {
             RS {incomeAmount}
           </p>
         </div>
-      </li>
+      </div>
 
-      <li className="list-item bg-voilet">
+      <div className="list-item bg-voilet">
         <div className="image-container">
           <img
             src="https://assets.ccbp.in/frontend/react-js/money-manager/expenses-image.png"
@@ -52,8 +52,8 @@ const MoneyDetails = props => {
             RS {expensesAmount}
           </p>
         </div>
-      </li>
-    </ul>
+      </div>
+    </div>
   )
 }
 
