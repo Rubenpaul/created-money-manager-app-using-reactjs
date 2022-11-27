@@ -187,13 +187,13 @@ class MoneyManager extends Component {
               </button>
             </form>
 
-            <ul className="history-container">
+            <div className="history-container">
               <h1 className="history-text">History</h1>
-              <li className="list-table">
+              <div className="list-table">
                 <p className="title-text">Title</p>
                 <p className="amount-text">Amount</p>
                 <p className="type-text">Type</p>
-              </li>
+              </div>
               <ul className="unorder-order-list">
                 {historyList.map(eachTransaction => (
                   <TransactionItem
@@ -203,7 +203,7 @@ class MoneyManager extends Component {
                   />
                 ))}
               </ul>
-            </ul>
+            </div>
           </div>
         </div>
       </div>
